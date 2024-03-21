@@ -1,0 +1,66 @@
+[.text-center]
+This is a AsciiDoc document
+[.text-center]
+Suggested viewer https://addons.mozilla.org/en-US/firefox/addon/asciidoctorjs-live-preview/[FireFox plugin Asciidoctor.js Live Preview]
+
+[.text-center]
+== Frictional Characteristics of Fusion Deposition Modeling Manufactured Surfaces
+:author: Foad Sojoodi Farimani
+:email: f.s.farimani@gmail.com
+:imagesdir: pics/
+
+== Description:
+
+[.text-justify]
+This Repository is indented to provide additional information for the article: +
+ +
+*Foad Sojoodi Farimani, Mattijn de Rooij, Edsko Hekman and Sarthak Misra, "Frictional Characteristics of Fusion Deposition Modeling Manufactured Surfaces," International Journal of Machine Tools and Manufacture, May 2019, 200--205.*
+ +
+ +
+
+image::structure.png[structure, 600, 600, align="center"]
+
+[.text-justify]
+The main goal is to provide falsifiable / reproducible experimental measurements required for a valid scientific publication. You may use these information only for scientific and academic purposes. All result and tests in this repository is published under Creative Commons License BY-NC-SA and the codes are GPLv3. It would be highly appreciated to cite to the main article using this .bib file. If you are interested to use these informational for commercial pourposes please contact the authors(s) via email: f.s.farimani@gmail.com. +
+ +
+
+image::Cc-by-nc-sa_icon.png[Cc-by-nc-sa, 130, 400, align="center"]
+
+image::GPLv3_Logo.png[GPLv3, 130, 400, align="center"]
+
+
+== Figures:
+
+[.text-justify]
+- *Figure 1:* Surface topography of an FDM printed part using STRATASYS Fortuse-250MC. A Sensofar optical profilometer has been used to scan the surface topography. More information including the data points of the surface topography and MATLAB code to convert the file in Folder `Figure1`.
+
+:imagesdir: Figure1
+image::20190508_Heightimage3D.png[400, 600, align="center"]
+
+[.text-justify]
+- *Figure 4:* Force versus displacement (of the force-cell) measurements by the Zwick tensile machine, for a normal force of 232g, a pulling speed of 300mm/min, a square apparent surface area of 0.0025mm^2, between the bottom surface and side surface, with rows parallel to the direction of sliding (BS-Par). For more information please see the `Figure4678` folder including Python code and measurement data.
+
+:imagesdir: Figure4678
+image::20190426_232g.png[400, 600, align="center"]
+
+[.text-justify]
+- *Figure 5:* Coefficients of kinematic friction for the CA and Ex models, and piezo coefficient of adhesion from the TB model for SS-Per surface configuration at different pulling speeds 5-1800mm/min and apparent surface areas 900-2500mm^2. Measurments data and Python code in `Figure5` folder.
+
+:imagesdir: Figure5
+image::20190305_kinematic_fitDiff.png[400, 600, align="center"]
+
+[.text-justify]
+- *Figure 6:* Static friction force versus normal force at different speeds for the measurements Figure 5. The extended CA friction model with an initial adhesive force describes the linear relationship between the friction and normal force. Measurements and Python codes in `Figure4678` folder.
+
+:imagesdir: Figure4678
+image::20190306_F_mass.png[400, 600, align="center"]
+
+[.text-justify]
+- *Figure 7:* Average of maximum friction forces during the kinetic phase versus speed in addition to the interpolated graphs. kinetic friction force decreases at higher pulling speeds asymptotically reaching a minimum friction force.
+
+image::20190305_kineticforce.png[400, 600, align="center"]
+
+[.text-justify]
+- *Figure 8:* Average periodicity (dominant frequency of the oscillation during the kinetic phase) versus pulling speed for different normal forces: the average dominant frequency slightly decreases from zero to 200mm/min and then the oscillatory motion becomes less harmonic.
+
+image::Periodicity_20190305.png[400, 600, align="center"]

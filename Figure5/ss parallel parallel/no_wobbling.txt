@@ -1,0 +1,2 @@
+during the ss parallel parallel test the boxes for all the different surface area values show almost no wobbling.
+this is probably because of the grooves keeping the boxes stable

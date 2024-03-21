@@ -1,0 +1,1059 @@
+Collecting matplotlib
+  Using cached https://files.pythonhosted.org/packages/ec/ed/46b835da53b7ed05bd4c6cae293f13ec26e877d2e490a53a709915a9dcb7/matplotlib-2.2.2.tar.gz
+Requirement already satisfied: numpy>=1.7.1 in /usr/local/Cellar/pypy3/6.0.0/libexec/site-packages (from matplotlib) (1.14.5)
+Requirement already satisfied: cycler>=0.10 in /usr/local/Cellar/pypy3/6.0.0/libexec/site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /usr/local/Cellar/pypy3/6.0.0/libexec/site-packages (from matplotlib) (2.2.0)
+Requirement already satisfied: python-dateutil>=2.1 in /usr/local/Cellar/pypy3/6.0.0/libexec/site-packages (from matplotlib) (2.7.3)
+Requirement already satisfied: pytz in /usr/local/Cellar/pypy3/6.0.0/libexec/site-packages (from matplotlib) (2018.4)
+Requirement already satisfied: six>=1.10 in /usr/local/Cellar/pypy3/6.0.0/libexec/site-packages (from matplotlib) (1.11.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/Cellar/pypy3/6.0.0/libexec/site-packages (from matplotlib) (1.0.1)
+Requirement already satisfied: setuptools in /usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/setuptools-39.0.1-py3.5.egg (from kiwisolver>=1.0.1->matplotlib) (39.0.1)
+Building wheels for collected packages: matplotlib
+  Running setup.py bdist_wheel for matplotlib: started
+  Running setup.py bdist_wheel for matplotlib: finished with status 'error'
+  Complete output from command /usr/local/bin/pypy3 -u -c "import setuptools, tokenize;__file__='/private/var/folders/f_/ymk21ql93w1_hdtyfvv89rmc0000gn/T/pip-install-t7w5j8ia/matplotlib/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /private/var/folders/f_/ymk21ql93w1_hdtyfvv89rmc0000gn/T/pip-wheel-8txh1_sr --python-tag pp360:
+  ============================================================================
+  Edit setup.cfg to change the build options
+
+  BUILDING MATPLOTLIB
+              matplotlib: yes [2.2.2]
+                  python: yes [3.5.3
+                          (fdd60ed87e941677e8ea11acf9f1819466521bf2, Apr 26
+                          2018, 01:25:35) [PyPy 6.0.0 with GCC 4.2.1
+                          Compatible Apple LLVM 9.1.0 (clang-902.0.39.1)]]
+                platform: yes [darwin]
+
+  REQUIRED DEPENDENCIES AND EXTENSIONS
+                   numpy: yes [version 1.14.5]
+        install_requires: yes [handled by setuptools]
+                  libagg: yes [pkg-config information for 'libagg' could not
+                          be found. Using local copy.]
+                freetype: yes [version 2.9.1]
+                     png: yes [version 1.6.34]
+                   qhull: yes [pkg-config information for 'libqhull' could not
+                          be found. Using local copy.]
+
+  OPTIONAL SUBPACKAGES
+             sample_data: yes [installing]
+                toolkits: yes [installing]
+                   tests: no  [skipping due to configuration]
+          toolkits_tests: no  [skipping due to configuration]
+
+  OPTIONAL BACKEND EXTENSIONS
+                  macosx: yes [installing, darwin]
+                  qt5agg: no  [PySide2 not found; PyQt5 not found]
+                  qt4agg: no  [PySide not found; PyQt4 not found]
+                 gtk3agg: no  [Requires pygobject to be installed.]
+               gtk3cairo: no  [Requires cairocffi or pycairo to be installed.]
+                  gtkagg: no  [Requires pygtk]
+                   tkagg: yes [installing; run-time loading from Python Tcl /
+                          Tk]
+                   wxagg: no  [requires wxPython]
+                     gtk: no  [Requires pygtk]
+                     agg: yes [installing]
+                   cairo: no  [cairocffi or pycairo not found]
+               windowing: no  [Microsoft Windows only]
+
+  OPTIONAL LATEX DEPENDENCIES
+                  dvipng: yes [version 1.15]
+             ghostscript: yes [version 9.23]
+                   latex: yes [version 3.14159265]
+                 pdftops: no
+
+  OPTIONAL PACKAGE DATA
+                    dlls: no  [skipping due to configuration]
+
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.macosx-10.13-x86_64-3.5
+  copying lib/pylab.py -> build/lib.macosx-10.13-x86_64-3.5
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/hatch.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/transforms.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/legend_handler.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/axis.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/textpath.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/quiver.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/backend_bases.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/units.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/pylab.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/colorbar.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/_version.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/_cm.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/backend_managers.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/mathtext.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/font_manager.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/bezier.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/cm.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/legend.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/figure.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/offsetbox.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/tight_bbox.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/container.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/gridspec.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/lines.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/widgets.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/blocking_input.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/dviread.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/animation.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/type1font.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/_mathtext_data.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/artist.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/backend_tools.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/docstring.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/_color_data.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/texmanager.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/afm.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/patches.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/stackplot.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/collections.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/spines.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/text.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/markers.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/mlab.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/fontconfig_pattern.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/_pylab_helpers.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/tight_layout.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/_cm_listed.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/dates.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/table.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/_animation_data.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/pyplot.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/rcsetup.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/ticker.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/path.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/contour.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/_layoutbox.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/image.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/scale.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/category.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/_constrained_layout.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/sankey.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/patheffects.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/streamplot.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  copying lib/matplotlib/colors.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_template.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_qt4agg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_gtk.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/_gtk3_compat.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_gtk3cairo.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_tkagg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/wx_compat.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_gdk.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_qt5agg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_gtkagg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_qt5.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_gtk3agg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_cairo.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_pdf.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_wxagg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_pgf.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_mixed.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_macosx.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/windowing.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_qt4.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_tkcairo.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_qt4cairo.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_gtk3.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_wxcairo.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_nbagg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_webagg_core.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_wx.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_qt5cairo.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/_backend_tk.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/qt_compat.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_svg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_webagg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/tkagg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_ps.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_gtkcairo.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  copying lib/matplotlib/backends/backend_agg.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/qt_editor
+  copying lib/matplotlib/backends/qt_editor/formlayout.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/qt_editor
+  copying lib/matplotlib/backends/qt_editor/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/qt_editor
+  copying lib/matplotlib/backends/qt_editor/formsubplottool.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/qt_editor
+  copying lib/matplotlib/backends/qt_editor/figureoptions.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/qt_editor
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/compat
+  copying lib/matplotlib/compat/subprocess.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/compat
+  copying lib/matplotlib/compat/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/compat
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/projections
+  copying lib/matplotlib/projections/geo.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/projections
+  copying lib/matplotlib/projections/polar.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/projections
+  copying lib/matplotlib/projections/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/projections
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/axes
+  copying lib/matplotlib/axes/_axes.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/axes
+  copying lib/matplotlib/axes/_base.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/axes
+  copying lib/matplotlib/axes/_subplots.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/axes
+  copying lib/matplotlib/axes/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/axes
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/sphinxext
+  copying lib/matplotlib/sphinxext/only_directives.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/sphinxext
+  copying lib/matplotlib/sphinxext/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/sphinxext
+  copying lib/matplotlib/sphinxext/mathmpl.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/sphinxext
+  copying lib/matplotlib/sphinxext/plot_directive.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/sphinxext
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/style
+  copying lib/matplotlib/style/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/style
+  copying lib/matplotlib/style/core.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/style
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing
+  copying lib/matplotlib/testing/conftest.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing
+  copying lib/matplotlib/testing/determinism.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing
+  copying lib/matplotlib/testing/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing
+  copying lib/matplotlib/testing/noseclasses.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing
+  copying lib/matplotlib/testing/exceptions.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing
+  copying lib/matplotlib/testing/disable_internet.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing
+  copying lib/matplotlib/testing/compare.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing
+  copying lib/matplotlib/testing/decorators.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/_nose
+  copying lib/matplotlib/testing/_nose/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/_nose
+  copying lib/matplotlib/testing/_nose/exceptions.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/_nose
+  copying lib/matplotlib/testing/_nose/decorators.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/_nose
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/_nose/plugins
+  copying lib/matplotlib/testing/_nose/plugins/knownfailure.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/_nose/plugins
+  copying lib/matplotlib/testing/_nose/plugins/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/_nose/plugins
+  copying lib/matplotlib/testing/_nose/plugins/performgc.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/_nose/plugins
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/jpl_units
+  copying lib/matplotlib/testing/jpl_units/UnitDblFormatter.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/jpl_units
+  copying lib/matplotlib/testing/jpl_units/UnitDbl.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/jpl_units
+  copying lib/matplotlib/testing/jpl_units/EpochConverter.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/jpl_units
+  copying lib/matplotlib/testing/jpl_units/Duration.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/jpl_units
+  copying lib/matplotlib/testing/jpl_units/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/jpl_units
+  copying lib/matplotlib/testing/jpl_units/UnitDblConverter.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/jpl_units
+  copying lib/matplotlib/testing/jpl_units/Epoch.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/jpl_units
+  copying lib/matplotlib/testing/jpl_units/StrConverter.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/testing/jpl_units
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  copying lib/matplotlib/tri/trirefine.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  copying lib/matplotlib/tri/tripcolor.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  copying lib/matplotlib/tri/trifinder.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  copying lib/matplotlib/tri/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  copying lib/matplotlib/tri/triplot.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  copying lib/matplotlib/tri/tritools.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  copying lib/matplotlib/tri/tricontour.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  copying lib/matplotlib/tri/triangulation.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  copying lib/matplotlib/tri/triinterpolate.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/tri
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/cbook
+  copying lib/matplotlib/cbook/deprecation.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/cbook
+  copying lib/matplotlib/cbook/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/cbook
+  copying lib/matplotlib/cbook/_backports.py -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/cbook
+  creating build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits
+  copying lib/mpl_toolkits/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits
+  creating build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/mplot3d
+  copying lib/mpl_toolkits/mplot3d/proj3d.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/mplot3d
+  copying lib/mpl_toolkits/mplot3d/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/mplot3d
+  copying lib/mpl_toolkits/mplot3d/axes3d.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/mplot3d
+  copying lib/mpl_toolkits/mplot3d/axis3d.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/mplot3d
+  copying lib/mpl_toolkits/mplot3d/art3d.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/mplot3d
+  creating build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/inset_locator.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/axislines.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/axes_grid.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/grid_finder.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/parasite_axes.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/colorbar.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/anchored_artists.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/axis_artist.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/axisline_style.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/axes_size.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/angle_helper.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/grid_helper_curvelinear.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/clip_path.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/floating_axes.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/axes_rgb.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  copying lib/mpl_toolkits/axes_grid/axes_divider.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid
+  creating build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/inset_locator.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/axes_grid.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/parasite_axes.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/colorbar.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/anchored_artists.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/axes_size.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/mpl_axes.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/axes_rgb.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  copying lib/mpl_toolkits/axes_grid1/axes_divider.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axes_grid1
+  creating build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/axislines.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/axes_grid.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/grid_finder.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/parasite_axes.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/axis_artist.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/axisline_style.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/__init__.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/angle_helper.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/grid_helper_curvelinear.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/clip_path.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/floating_axes.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/axes_rgb.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  copying lib/mpl_toolkits/axisartist/axes_divider.py -> build/lib.macosx-10.13-x86_64-3.5/mpl_toolkits/axisartist
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/goog.npz -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/None_vs_nearest-pdf.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/aapl.npz -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/ada.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/eeg.dat -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/msft.csv -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/data_x_x2_x3.csv -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/logo2.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/percent_bachelors_degrees_women_usa.csv -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/membrane.dat -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/embedding_in_wx3.xrc -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/jacksboro_fault_dem.npz -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/README.txt -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/ct.raw.gz -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/grace_hopper.jpg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/demodata.csv -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/grace_hopper.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  copying lib/matplotlib/mpl-data/sample_data/s1045.ima.gz -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data/axes_grid
+  copying lib/matplotlib/mpl-data/sample_data/axes_grid/bivariate_normal.npy -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/sample_data/axes_grid
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pncri8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/ptmbi8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pbkli8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvlo8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pagdo8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvl8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pplb8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvbo8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/cmsy10.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/psyr.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pagd8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pzdr.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvro8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pncr8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/ptmb8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/cmtt10.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/cmex10.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/cmr10.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/ptmri8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/putr8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pncbi8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pbkd8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pcrr8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pbkdi8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvr8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvbo8an.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvro8an.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pagk8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pplri8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/putri8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pplr8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pcrro8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pbkl8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvr8an.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pagko8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pncb8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/ptmr8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvb8an.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pzcmi8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pcrb8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pplbi8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/putb8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/putbi8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/phvb8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/pcrbo8a.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  copying lib/matplotlib/mpl-data/fonts/afm/cmmi10.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/afm
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Courier.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Times-BoldItalic.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica-Bold.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Courier-BoldOblique.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Courier-Oblique.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Times-Italic.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/ZapfDingbats.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Symbol.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Times-Bold.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica-Oblique.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica-BoldOblique.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Courier-Bold.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/Times-Roman.afm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  copying lib/matplotlib/mpl-data/fonts/pdfcorefonts/readme.txt -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/pdfcorefonts
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/cmb10.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/cmss10.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/cmex10.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/cmr10.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  copying lib/matplotlib/mpl-data/fonts/ttf/LICENSE_STIX -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/fonts/ttf
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/hand.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/matplotlib.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/subplots.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/home.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/move.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/filesave.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/zoom_to_rect.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/qt4_editor_options.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/back.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/forward.svg -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/move_large.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/forward_large.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/forward.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/back_large.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/back.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/hand_large.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/subplots_large.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/zoom_to_rect.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/zoom_to_rect_large.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/filesave.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/move.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/filesave_large.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/home_large.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/home.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/subplots.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/hand.gif -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/filesave.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/zoom_to_rect.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/move.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/matplotlib.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/hand.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/subplots.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/home.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/forward.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/qt4_editor_options.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/back.pdf -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/matplotlib_large.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/subplots_large.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/zoom_to_rect.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/zoom_to_rect_large.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/filesave.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/qt4_editor_options_large.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/move.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/filesave_large.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/home_large.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/home.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/subplots.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/matplotlib.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/hand.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/move_large.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/forward_large.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/forward.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/back_large.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/back.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/qt4_editor_options.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/images/matplotlib.ppm -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/images
+  copying lib/matplotlib/mpl-data/matplotlibrc -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend
+  copying lib/matplotlib/backends/web_backend/all_figures.html -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend
+  copying lib/matplotlib/backends/web_backend/ipython_inline_figure.html -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend
+  copying lib/matplotlib/backends/web_backend/single_figure.html -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend
+  copying lib/matplotlib/backends/web_backend/nbagg_uat.ipynb -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/js
+  copying lib/matplotlib/backends/web_backend/js/nbagg_mpl.js -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/js
+  copying lib/matplotlib/backends/web_backend/js/mpl_tornado.js -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/js
+  copying lib/matplotlib/backends/web_backend/js/mpl.js -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/js
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/js
+  copying lib/matplotlib/backends/web_backend/jquery/js/jquery-ui.min.js -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/js
+  copying lib/matplotlib/backends/web_backend/jquery/js/jquery-1.11.3.min.js -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/js
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/jquery-ui.min.css -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_ef8c08_256x240.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_diagonals-thick_18_b81900_40x40.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_glass_100_f6f6f6_1x400.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_gloss-wave_35_f6a828_500x100.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_highlight-soft_100_eeeeee_1x100.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_highlight-soft_75_ffe45c_1x100.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_glass_65_ffffff_1x400.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_228ef1_256x240.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_diagonals-thick_20_666666_40x40.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_glass_100_fdf5ce_1x400.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_ffffff_256x240.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_222222_256x240.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_ffd27a_256x240.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  copying lib/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_flat_10_000000_40x100.png -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/jquery/css/themes/base/images
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/css
+  copying lib/matplotlib/backends/web_backend/css/page.css -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/css
+  copying lib/matplotlib/backends/web_backend/css/boilerplate.css -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/css
+  copying lib/matplotlib/backends/web_backend/css/fbm.css -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/backends/web_backend/css
+  creating build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-dark.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-darkgrid.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-ticks.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/fivethirtyeight.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-whitegrid.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/classic.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/_classic_test.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/fast.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-talk.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-dark-palette.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-bright.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-pastel.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/grayscale.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-notebook.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/ggplot.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-colorblind.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-muted.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/Solarize_Light2.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-paper.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/bmh.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/tableau-colorblind10.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-white.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/dark_background.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-poster.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  copying lib/matplotlib/mpl-data/stylelib/seaborn-deep.mplstyle -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data/stylelib
+  UPDATING build/lib.macosx-10.13-x86_64-3.5/matplotlib/_version.py
+  set build/lib.macosx-10.13-x86_64-3.5/matplotlib/_version.py to '2.2.2'
+  running build_ext
+  building 'matplotlib.ft2font' extension
+  creating build/temp.macosx-10.13-x86_64-3.5
+  creating build/temp.macosx-10.13-x86_64-3.5/src
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DFREETYPE_BUILD_TYPE=system -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/ft2font.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/ft2font.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DFREETYPE_BUILD_TYPE=system -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/ft2font_wrapper.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/ft2font_wrapper.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DFREETYPE_BUILD_TYPE=system -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/mplutils.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/mplutils.o
+  c++ -pthread -shared -undefined dynamic_lookup build/temp.macosx-10.13-x86_64-3.5/src/ft2font.o build/temp.macosx-10.13-x86_64-3.5/src/ft2font_wrapper.o build/temp.macosx-10.13-x86_64-3.5/src/mplutils.o -L/usr/local/opt/freetype/lib -L/usr/local/lib -L/usr/lib -L/usr/X11/lib -L/opt/X11/lib -lfreetype -o build/lib.macosx-10.13-x86_64-3.5/matplotlib/ft2font.pypy3-60-darwin.so
+  building 'matplotlib._png' extension
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/Cellar/libpng/1.6.34/include/libpng16 -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/_png.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/_png.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/Cellar/libpng/1.6.34/include/libpng16 -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/mplutils.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/mplutils.o
+  c++ -pthread -shared -undefined dynamic_lookup build/temp.macosx-10.13-x86_64-3.5/src/_png.o build/temp.macosx-10.13-x86_64-3.5/src/mplutils.o -L/usr/local/Cellar/libpng/1.6.34/lib -L/usr/local/lib -L/usr/lib -L/usr/X11/lib -L/opt/X11/lib -lz -lpng16 -o build/lib.macosx-10.13-x86_64-3.5/matplotlib/_png.pypy3-60-darwin.so
+  building 'matplotlib._image' extension
+  creating build/temp.macosx-10.13-x86_64-3.5/extern
+  creating build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn
+  creating build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/_image.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/_image.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/mplutils.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/mplutils.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/_image_wrapper.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/_image_wrapper.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/py_converters.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/py_converters.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_bezier_arc.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_bezier_arc.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_curves.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_curves.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_image_filters.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_image_filters.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_trans_affine.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_trans_affine.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_vcgen_contour.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_contour.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_vcgen_dash.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_dash.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_vcgen_stroke.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_stroke.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_vpgen_segmentator.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vpgen_segmentator.o
+  c++ -pthread -shared -undefined dynamic_lookup build/temp.macosx-10.13-x86_64-3.5/src/_image.o build/temp.macosx-10.13-x86_64-3.5/src/mplutils.o build/temp.macosx-10.13-x86_64-3.5/src/_image_wrapper.o build/temp.macosx-10.13-x86_64-3.5/src/py_converters.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_bezier_arc.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_curves.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_image_filters.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_trans_affine.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_contour.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_dash.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_stroke.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vpgen_segmentator.o -L/usr/local/lib -L/usr/lib -L/usr/X11/lib -L/opt/X11/lib -o build/lib.macosx-10.13-x86_64-3.5/matplotlib/_image.pypy3-60-darwin.so
+  building 'matplotlib.ttconv' extension
+  creating build/temp.macosx-10.13-x86_64-3.5/extern/ttconv
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/_ttconv.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/_ttconv.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/ttconv/pprdrv_tt.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/ttconv/pprdrv_tt.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/ttconv/pprdrv_tt2.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/ttconv/pprdrv_tt2.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/ttconv/ttutil.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/ttconv/ttutil.o
+  c++ -pthread -shared -undefined dynamic_lookup build/temp.macosx-10.13-x86_64-3.5/src/_ttconv.o build/temp.macosx-10.13-x86_64-3.5/extern/ttconv/pprdrv_tt.o build/temp.macosx-10.13-x86_64-3.5/extern/ttconv/pprdrv_tt2.o build/temp.macosx-10.13-x86_64-3.5/extern/ttconv/ttutil.o -L/usr/local/lib -L/usr/lib -L/usr/X11/lib -L/opt/X11/lib -o build/lib.macosx-10.13-x86_64-3.5/matplotlib/ttconv.pypy3-60-darwin.so
+  building 'matplotlib._path' extension
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/py_converters.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/py_converters.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/_path_wrapper.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/_path_wrapper.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_bezier_arc.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_bezier_arc.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_curves.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_curves.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_image_filters.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_image_filters.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_trans_affine.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_trans_affine.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_vcgen_contour.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_contour.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_vcgen_dash.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_dash.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_vcgen_stroke.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_stroke.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern/agg24-svn/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/agg24-svn/src/agg_vpgen_segmentator.cpp -o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vpgen_segmentator.o
+  c++ -pthread -shared -undefined dynamic_lookup build/temp.macosx-10.13-x86_64-3.5/src/py_converters.o build/temp.macosx-10.13-x86_64-3.5/src/_path_wrapper.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_bezier_arc.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_curves.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_image_filters.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_trans_affine.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_contour.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_dash.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vcgen_stroke.o build/temp.macosx-10.13-x86_64-3.5/extern/agg24-svn/src/agg_vpgen_segmentator.o -L/usr/local/lib -L/usr/lib -L/usr/X11/lib -L/opt/X11/lib -o build/lib.macosx-10.13-x86_64-3.5/matplotlib/_path.pypy3-60-darwin.so
+  building 'matplotlib._contour' extension
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__contour_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/_contour.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/_contour.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__contour_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/_contour_wrapper.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/_contour_wrapper.o
+  c++ -pthread -shared -undefined dynamic_lookup build/temp.macosx-10.13-x86_64-3.5/src/_contour.o build/temp.macosx-10.13-x86_64-3.5/src/_contour_wrapper.o -L/usr/local/lib -L/usr/lib -L/usr/X11/lib -L/opt/X11/lib -o build/lib.macosx-10.13-x86_64-3.5/matplotlib/_contour.pypy3-60-darwin.so
+  building 'matplotlib._qhull' extension
+  creating build/temp.macosx-10.13-x86_64-3.5/extern/libqhull
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/qhull_wrap.c -o build/temp.macosx-10.13-x86_64-3.5/src/qhull_wrap.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/geom.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/geom.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/geom2.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/geom2.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/global.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/global.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/io.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/io.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/libqhull.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/libqhull.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/mem.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/mem.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/merge.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/merge.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/poly.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/poly.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/poly2.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/poly2.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/qset.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/qset.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/random.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/random.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/rboxlib.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/rboxlib.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/stat.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/stat.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/user.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/user.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/usermem.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/usermem.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/userprintf.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/userprintf.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -Iextern -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c extern/libqhull/userprintf_rbox.c -o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/userprintf_rbox.o
+  cc -pthread -shared -undefined dynamic_lookup build/temp.macosx-10.13-x86_64-3.5/src/qhull_wrap.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/geom.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/geom2.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/global.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/io.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/libqhull.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/mem.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/merge.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/poly.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/poly2.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/qset.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/random.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/rboxlib.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/stat.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/user.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/usermem.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/userprintf.o build/temp.macosx-10.13-x86_64-3.5/extern/libqhull/userprintf_rbox.o -L/usr/local/lib -L/usr/lib -L/usr/X11/lib -L/opt/X11/lib -o build/lib.macosx-10.13-x86_64-3.5/matplotlib/_qhull.pypy3-60-darwin.so
+  building 'matplotlib._tri' extension
+  creating build/temp.macosx-10.13-x86_64-3.5/lib
+  creating build/temp.macosx-10.13-x86_64-3.5/lib/matplotlib
+  creating build/temp.macosx-10.13-x86_64-3.5/lib/matplotlib/tri
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c lib/matplotlib/tri/_tri.cpp -o build/temp.macosx-10.13-x86_64-3.5/lib/matplotlib/tri/_tri.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c lib/matplotlib/tri/_tri_wrapper.cpp -o build/temp.macosx-10.13-x86_64-3.5/lib/matplotlib/tri/_tri_wrapper.o
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -D__STDC_FORMAT_MACROS=1 -I/usr/local/Cellar/pypy3/6.0.0/libexec/site-packages/numpy/core/include -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/mplutils.cpp -o build/temp.macosx-10.13-x86_64-3.5/src/mplutils.o
+  c++ -pthread -shared -undefined dynamic_lookup build/temp.macosx-10.13-x86_64-3.5/lib/matplotlib/tri/_tri.o build/temp.macosx-10.13-x86_64-3.5/lib/matplotlib/tri/_tri_wrapper.o build/temp.macosx-10.13-x86_64-3.5/src/mplutils.o -L/usr/local/lib -L/usr/lib -L/usr/X11/lib -L/opt/X11/lib -o build/lib.macosx-10.13-x86_64-3.5/matplotlib/_tri.pypy3-60-darwin.so
+  building 'matplotlib.backends._macosx' extension
+  cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/_macosx.m -o build/temp.macosx-10.13-x86_64-3.5/src/_macosx.o
+  src/_macosx.m:149:55: warning: 'NSAnyEventMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                  event = [NSApp nextEventMatchingMask: NSAnyEventMask
+                                                        ^~~~~~~~~~~~~~
+                                                        NSEventMaskAny
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:158:26: note: 'NSAnyEventMask' has been explicitly marked deprecated here
+  static const NSEventMask NSAnyEventMask                 NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventMaskAny", 10.0, 10.12) = NSUIntegerMax;
+                           ^
+  src/_macosx.m:529:56: warning: 'NSAnyEventMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+      {   NSEvent* event = [NSApp nextEventMatchingMask: NSAnyEventMask
+                                                         ^~~~~~~~~~~~~~
+                                                         NSEventMaskAny
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:158:26: note: 'NSAnyEventMask' has been explicitly marked deprecated here
+  static const NSEventMask NSAnyEventMask                 NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventMaskAny", 10.0, 10.12) = NSUIntegerMax;
+                           ^
+  src/_macosx.m:533:36: warning: 'NSApplicationDefined' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+         if (!event || [event type]==NSApplicationDefined) break;
+                                     ^~~~~~~~~~~~~~~~~~~~
+                                     NSEventTypeApplicationDefined
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:79:26: note: 'NSApplicationDefined' has been explicitly marked deprecated here
+  static const NSEventType NSApplicationDefined   NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeApplicationDefined", 10.0, 10.12) = NSEventTypeApplicationDefined;
+                           ^
+  src/_macosx.m:550:51: warning: 'NSApplicationDefined' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+      NSEvent* event = [NSEvent otherEventWithType: NSApplicationDefined
+                                                    ^~~~~~~~~~~~~~~~~~~~
+                                                    NSEventTypeApplicationDefined
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:79:26: note: 'NSApplicationDefined' has been explicitly marked deprecated here
+  static const NSEventType NSApplicationDefined   NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeApplicationDefined", 10.0, 10.12) = NSEventTypeApplicationDefined;
+                           ^
+  src/_macosx.m:710:53: warning: 'NSTitledWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                           styleMask: NSTitledWindowMask
+                                                      ^~~~~~~~~~~~~~~~~~
+                                                      NSWindowStyleMaskTitled
+  /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:955:32: note: 'NSTitledWindowMask' has been explicitly marked deprecated here
+  static const NSWindowStyleMask NSTitledWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskTitled", 10.0, 10.12) = NSWindowStyleMaskTitled;
+                                 ^
+  src/_macosx.m:711:53: warning: 'NSClosableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                                    | NSClosableWindowMask
+                                                      ^~~~~~~~~~~~~~~~~~~~
+                                                      NSWindowStyleMaskClosable
+  /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:956:32: note: 'NSClosableWindowMask' has been explicitly marked deprecated here
+  static const NSWindowStyleMask NSClosableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskClosable", 10.0, 10.12) = NSWindowStyleMaskClosable;
+                                 ^
+  src/_macosx.m:712:53: warning: 'NSResizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                                    | NSResizableWindowMask
+                                                      ^~~~~~~~~~~~~~~~~~~~~
+                                                      NSWindowStyleMaskResizable
+  /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:958:32: note: 'NSResizableWindowMask' has been explicitly marked deprecated here
+  static const NSWindowStyleMask NSResizableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskResizable", 10.0, 10.12) = NSWindowStyleMaskResizable;
+                                 ^
+  src/_macosx.m:713:53: warning: 'NSMiniaturizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                                    | NSMiniaturizableWindowMask
+                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                      NSWindowStyleMaskMiniaturizable
+  /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:957:32: note: 'NSMiniaturizableWindowMask' has been explicitly marked deprecated here
+  static const NSWindowStyleMask NSMiniaturizableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskMiniaturizable", 10.0, 10.12) = NSWindowStyleMaskMiniaturizable;
+                                 ^
+  src/_macosx.m:2035:32: warning: 'NSTitledWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                      styleMask: NSTitledWindowMask
+                                 ^~~~~~~~~~~~~~~~~~
+                                 NSWindowStyleMaskTitled
+  /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:955:32: note: 'NSTitledWindowMask' has been explicitly marked deprecated here
+  static const NSWindowStyleMask NSTitledWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskTitled", 10.0, 10.12) = NSWindowStyleMaskTitled;
+                                 ^
+  src/_macosx.m:2036:32: warning: 'NSClosableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                               | NSClosableWindowMask
+                                 ^~~~~~~~~~~~~~~~~~~~
+                                 NSWindowStyleMaskClosable
+  /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:956:32: note: 'NSClosableWindowMask' has been explicitly marked deprecated here
+  static const NSWindowStyleMask NSClosableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskClosable", 10.0, 10.12) = NSWindowStyleMaskClosable;
+                                 ^
+  src/_macosx.m:2037:32: warning: 'NSResizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                               | NSResizableWindowMask
+                                 ^~~~~~~~~~~~~~~~~~~~~
+                                 NSWindowStyleMaskResizable
+  /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:958:32: note: 'NSResizableWindowMask' has been explicitly marked deprecated here
+  static const NSWindowStyleMask NSResizableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskResizable", 10.0, 10.12) = NSWindowStyleMaskResizable;
+                                 ^
+  src/_macosx.m:2038:32: warning: 'NSMiniaturizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                               | NSMiniaturizableWindowMask
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                 NSWindowStyleMaskMiniaturizable
+  /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:957:32: note: 'NSMiniaturizableWindowMask' has been explicitly marked deprecated here
+  static const NSWindowStyleMask NSMiniaturizableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskMiniaturizable", 10.0, 10.12) = NSWindowStyleMaskMiniaturizable;
+                                 ^
+  src/_macosx.m:2256:51: warning: 'NSApplicationDefined' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+      NSEvent* event = [NSEvent otherEventWithType: NSApplicationDefined
+                                                    ^~~~~~~~~~~~~~~~~~~~
+                                                    NSEventTypeApplicationDefined
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:79:26: note: 'NSApplicationDefined' has been explicitly marked deprecated here
+  static const NSEventType NSApplicationDefined   NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeApplicationDefined", 10.0, 10.12) = NSEventTypeApplicationDefined;
+                           ^
+  src/_macosx.m:2325:15: warning: 'NSLeftMouseDown' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+      {    case NSLeftMouseDown:
+                ^~~~~~~~~~~~~~~
+                NSEventTypeLeftMouseDown
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:65:26: note: 'NSLeftMouseDown' has been explicitly marked deprecated here
+  static const NSEventType NSLeftMouseDown        NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeLeftMouseDown", 10.0, 10.12) = NSEventTypeLeftMouseDown;
+                           ^
+  src/_macosx.m:2327:29: warning: 'NSControlKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+               if (modifier & NSControlKeyMask)
+                              ^~~~~~~~~~~~~~~~
+                              NSEventModifierFlagControl
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:183:35: note: 'NSControlKeyMask' has been explicitly marked deprecated here
+  static const NSEventModifierFlags NSControlKeyMask            NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagControl", 10.0, 10.12) = NSEventModifierFlagControl;
+                                    ^
+  src/_macosx.m:2330:34: warning: 'NSAlternateKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+               else if (modifier & NSAlternateKeyMask)
+                                   ^~~~~~~~~~~~~~~~~~
+                                   NSEventModifierFlagOption
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:184:35: note: 'NSAlternateKeyMask' has been explicitly marked deprecated here
+  static const NSEventModifierFlags NSAlternateKeyMask          NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagOption", 10.0, 10.12) = NSEventModifierFlagOption;
+                                    ^
+  src/_macosx.m:2341:15: warning: 'NSOtherMouseDown' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+           case NSOtherMouseDown: num = 2; break;
+                ^~~~~~~~~~~~~~~~
+                NSEventTypeOtherMouseDown
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:85:26: note: 'NSOtherMouseDown' has been explicitly marked deprecated here
+  static const NSEventType NSOtherMouseDown       NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeOtherMouseDown", 10.0, 10.12) = NSEventTypeOtherMouseDown;
+                           ^
+  src/_macosx.m:2342:15: warning: 'NSRightMouseDown' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+           case NSRightMouseDown: num = 3; break;
+                ^~~~~~~~~~~~~~~~
+                NSEventTypeRightMouseDown
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:67:26: note: 'NSRightMouseDown' has been explicitly marked deprecated here
+  static const NSEventType NSRightMouseDown       NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeRightMouseDown", 10.0, 10.12) = NSEventTypeRightMouseDown;
+                           ^
+  src/_macosx.m:2369:15: warning: 'NSLeftMouseUp' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+      {    case NSLeftMouseUp:
+                ^~~~~~~~~~~~~
+                NSEventTypeLeftMouseUp
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:66:26: note: 'NSLeftMouseUp' has been explicitly marked deprecated here
+  static const NSEventType NSLeftMouseUp          NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeLeftMouseUp", 10.0, 10.12) = NSEventTypeLeftMouseUp;
+                           ^
+  src/_macosx.m:2374:15: warning: 'NSOtherMouseUp' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+           case NSOtherMouseUp: num = 2; break;
+                ^~~~~~~~~~~~~~
+                NSEventTypeOtherMouseUp
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:86:26: note: 'NSOtherMouseUp' has been explicitly marked deprecated here
+  static const NSEventType NSOtherMouseUp         NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeOtherMouseUp", 10.0, 10.12) = NSEventTypeOtherMouseUp;
+                           ^
+  src/_macosx.m:2375:15: warning: 'NSRightMouseUp' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+           case NSRightMouseUp: num = 3; break;
+                ^~~~~~~~~~~~~~
+                NSEventTypeRightMouseUp
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:68:26: note: 'NSRightMouseUp' has been explicitly marked deprecated here
+  static const NSEventType NSRightMouseUp         NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeRightMouseUp", 10.0, 10.12) = NSEventTypeRightMouseUp;
+                           ^
+  src/_macosx.m:2604:33: warning: 'NSControlKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+      if ([event modifierFlags] & NSControlKeyMask)
+                                  ^~~~~~~~~~~~~~~~
+                                  NSEventModifierFlagControl
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:183:35: note: 'NSControlKeyMask' has been explicitly marked deprecated here
+  static const NSEventModifierFlags NSControlKeyMask            NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagControl", 10.0, 10.12) = NSEventModifierFlagControl;
+                                    ^
+  src/_macosx.m:2606:33: warning: 'NSAlternateKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+      if ([event modifierFlags] & NSAlternateKeyMask)
+                                  ^~~~~~~~~~~~~~~~~~
+                                  NSEventModifierFlagOption
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:184:35: note: 'NSAlternateKeyMask' has been explicitly marked deprecated here
+  static const NSEventModifierFlags NSAlternateKeyMask          NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagOption", 10.0, 10.12) = NSEventModifierFlagOption;
+                                    ^
+  src/_macosx.m:2608:33: warning: 'NSCommandKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+      if ([event modifierFlags] & NSCommandKeyMask)
+                                  ^~~~~~~~~~~~~~~~
+                                  NSEventModifierFlagCommand
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:185:35: note: 'NSCommandKeyMask' has been explicitly marked deprecated here
+  static const NSEventModifierFlags NSCommandKeyMask            NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagCommand", 10.0, 10.12) = NSEventModifierFlagCommand;
+                                    ^
+  src/_macosx.m:2614:37: warning: 'NSShiftKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+          if ([event modifierFlags] & NSShiftKeyMask)
+                                      ^~~~~~~~~~~~~~
+                                      NSEventModifierFlagShift
+  /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:182:35: note: 'NSShiftKeyMask' has been explicitly marked deprecated here
+  static const NSEventModifierFlags NSShiftKeyMask              NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagShift", 10.0, 10.12) = NSEventModifierFlagShift;
+                                    ^
+  src/_macosx.m:3160:5: error: use of undeclared identifier 'PyOS_InputHook'
+      PyOS_InputHook = wait_for_stdin;
+      ^
+  25 warnings and 1 error generated.
+  error: command 'cc' failed with exit status 1
+
+  ----------------------------------------
+  Running setup.py clean for matplotlib
+Failed to build matplotlib
+Installing collected packages: matplotlib
+  Running setup.py install for matplotlib: started
+    Running setup.py install for matplotlib: finished with status 'error'
+    Complete output from command /usr/local/bin/pypy3 -u -c "import setuptools, tokenize;__file__='/private/var/folders/f_/ymk21ql93w1_hdtyfvv89rmc0000gn/T/pip-install-t7w5j8ia/matplotlib/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/f_/ymk21ql93w1_hdtyfvv89rmc0000gn/T/pip-record-vv2x6vsv/install-record.txt --single-version-externally-managed --compile:
+    ============================================================================
+    Edit setup.cfg to change the build options
+
+    BUILDING MATPLOTLIB
+                matplotlib: yes [2.2.2]
+                    python: yes [3.5.3
+                            (fdd60ed87e941677e8ea11acf9f1819466521bf2, Apr 26
+                            2018, 01:25:35) [PyPy 6.0.0 with GCC 4.2.1
+                            Compatible Apple LLVM 9.1.0 (clang-902.0.39.1)]]
+                  platform: yes [darwin]
+
+    REQUIRED DEPENDENCIES AND EXTENSIONS
+                     numpy: yes [version 1.14.5]
+          install_requires: yes [handled by setuptools]
+                    libagg: yes [pkg-config information for 'libagg' could not
+                            be found. Using local copy.]
+                  freetype: yes [version 2.9.1]
+                       png: yes [version 1.6.34]
+                     qhull: yes [pkg-config information for 'libqhull' could not
+                            be found. Using local copy.]
+
+    OPTIONAL SUBPACKAGES
+               sample_data: yes [installing]
+                  toolkits: yes [installing]
+                     tests: no  [skipping due to configuration]
+            toolkits_tests: no  [skipping due to configuration]
+
+    OPTIONAL BACKEND EXTENSIONS
+                    macosx: yes [installing, darwin]
+                    qt5agg: no  [PySide2 not found; PyQt5 not found]
+                    qt4agg: no  [PySide not found; PyQt4 not found]
+                   gtk3agg: no  [Requires pygobject to be installed.]
+                 gtk3cairo: no  [Requires cairocffi or pycairo to be installed.]
+                    gtkagg: no  [Requires pygtk]
+                     tkagg: yes [installing; run-time loading from Python Tcl /
+                            Tk]
+                     wxagg: no  [requires wxPython]
+                       gtk: no  [Requires pygtk]
+                       agg: yes [installing]
+                     cairo: no  [cairocffi or pycairo not found]
+                 windowing: no  [Microsoft Windows only]
+
+    OPTIONAL LATEX DEPENDENCIES
+                    dvipng: yes [version 1.15]
+               ghostscript: yes [version 9.23]
+                     latex: yes [version 3.14159265]
+                   pdftops: no
+
+    OPTIONAL PACKAGE DATA
+                      dlls: no  [skipping due to configuration]
+
+    running install
+    running build
+    running build_py
+    copying lib/matplotlib/mpl-data/matplotlibrc -> build/lib.macosx-10.13-x86_64-3.5/matplotlib/mpl-data
+    UPDATING build/lib.macosx-10.13-x86_64-3.5/matplotlib/_version.py
+    set build/lib.macosx-10.13-x86_64-3.5/matplotlib/_version.py to '2.2.2'
+    running build_ext
+    building 'matplotlib.backends._macosx' extension
+    creating build/temp.macosx-10.13-x86_64-3.5
+    creating build/temp.macosx-10.13-x86_64-3.5/src
+    cc -pthread -arch x86_64 -DNDEBUG -O2 -fPIC -I/usr/local/include -I/usr/include -I/usr/X11/include -I/opt/X11/include -I. -I/usr/local/Cellar/pypy3/6.0.0/libexec/include -c src/_macosx.m -o build/temp.macosx-10.13-x86_64-3.5/src/_macosx.o
+    src/_macosx.m:149:55: warning: 'NSAnyEventMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                    event = [NSApp nextEventMatchingMask: NSAnyEventMask
+                                                          ^~~~~~~~~~~~~~
+                                                          NSEventMaskAny
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:158:26: note: 'NSAnyEventMask' has been explicitly marked deprecated here
+    static const NSEventMask NSAnyEventMask                 NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventMaskAny", 10.0, 10.12) = NSUIntegerMax;
+                             ^
+    src/_macosx.m:529:56: warning: 'NSAnyEventMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        {   NSEvent* event = [NSApp nextEventMatchingMask: NSAnyEventMask
+                                                           ^~~~~~~~~~~~~~
+                                                           NSEventMaskAny
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:158:26: note: 'NSAnyEventMask' has been explicitly marked deprecated here
+    static const NSEventMask NSAnyEventMask                 NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventMaskAny", 10.0, 10.12) = NSUIntegerMax;
+                             ^
+    src/_macosx.m:533:36: warning: 'NSApplicationDefined' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+           if (!event || [event type]==NSApplicationDefined) break;
+                                       ^~~~~~~~~~~~~~~~~~~~
+                                       NSEventTypeApplicationDefined
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:79:26: note: 'NSApplicationDefined' has been explicitly marked deprecated here
+    static const NSEventType NSApplicationDefined   NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeApplicationDefined", 10.0, 10.12) = NSEventTypeApplicationDefined;
+                             ^
+    src/_macosx.m:550:51: warning: 'NSApplicationDefined' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        NSEvent* event = [NSEvent otherEventWithType: NSApplicationDefined
+                                                      ^~~~~~~~~~~~~~~~~~~~
+                                                      NSEventTypeApplicationDefined
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:79:26: note: 'NSApplicationDefined' has been explicitly marked deprecated here
+    static const NSEventType NSApplicationDefined   NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeApplicationDefined", 10.0, 10.12) = NSEventTypeApplicationDefined;
+                             ^
+    src/_macosx.m:710:53: warning: 'NSTitledWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                             styleMask: NSTitledWindowMask
+                                                        ^~~~~~~~~~~~~~~~~~
+                                                        NSWindowStyleMaskTitled
+    /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:955:32: note: 'NSTitledWindowMask' has been explicitly marked deprecated here
+    static const NSWindowStyleMask NSTitledWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskTitled", 10.0, 10.12) = NSWindowStyleMaskTitled;
+                                   ^
+    src/_macosx.m:711:53: warning: 'NSClosableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                                      | NSClosableWindowMask
+                                                        ^~~~~~~~~~~~~~~~~~~~
+                                                        NSWindowStyleMaskClosable
+    /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:956:32: note: 'NSClosableWindowMask' has been explicitly marked deprecated here
+    static const NSWindowStyleMask NSClosableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskClosable", 10.0, 10.12) = NSWindowStyleMaskClosable;
+                                   ^
+    src/_macosx.m:712:53: warning: 'NSResizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                                      | NSResizableWindowMask
+                                                        ^~~~~~~~~~~~~~~~~~~~~
+                                                        NSWindowStyleMaskResizable
+    /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:958:32: note: 'NSResizableWindowMask' has been explicitly marked deprecated here
+    static const NSWindowStyleMask NSResizableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskResizable", 10.0, 10.12) = NSWindowStyleMaskResizable;
+                                   ^
+    src/_macosx.m:713:53: warning: 'NSMiniaturizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                                      | NSMiniaturizableWindowMask
+                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                        NSWindowStyleMaskMiniaturizable
+    /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:957:32: note: 'NSMiniaturizableWindowMask' has been explicitly marked deprecated here
+    static const NSWindowStyleMask NSMiniaturizableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskMiniaturizable", 10.0, 10.12) = NSWindowStyleMaskMiniaturizable;
+                                   ^
+    src/_macosx.m:2035:32: warning: 'NSTitledWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                        styleMask: NSTitledWindowMask
+                                   ^~~~~~~~~~~~~~~~~~
+                                   NSWindowStyleMaskTitled
+    /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:955:32: note: 'NSTitledWindowMask' has been explicitly marked deprecated here
+    static const NSWindowStyleMask NSTitledWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskTitled", 10.0, 10.12) = NSWindowStyleMaskTitled;
+                                   ^
+    src/_macosx.m:2036:32: warning: 'NSClosableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                 | NSClosableWindowMask
+                                   ^~~~~~~~~~~~~~~~~~~~
+                                   NSWindowStyleMaskClosable
+    /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:956:32: note: 'NSClosableWindowMask' has been explicitly marked deprecated here
+    static const NSWindowStyleMask NSClosableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskClosable", 10.0, 10.12) = NSWindowStyleMaskClosable;
+                                   ^
+    src/_macosx.m:2037:32: warning: 'NSResizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                 | NSResizableWindowMask
+                                   ^~~~~~~~~~~~~~~~~~~~~
+                                   NSWindowStyleMaskResizable
+    /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:958:32: note: 'NSResizableWindowMask' has been explicitly marked deprecated here
+    static const NSWindowStyleMask NSResizableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskResizable", 10.0, 10.12) = NSWindowStyleMaskResizable;
+                                   ^
+    src/_macosx.m:2038:32: warning: 'NSMiniaturizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                                 | NSMiniaturizableWindowMask
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                   NSWindowStyleMaskMiniaturizable
+    /System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:957:32: note: 'NSMiniaturizableWindowMask' has been explicitly marked deprecated here
+    static const NSWindowStyleMask NSMiniaturizableWindowMask NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSWindowStyleMaskMiniaturizable", 10.0, 10.12) = NSWindowStyleMaskMiniaturizable;
+                                   ^
+    src/_macosx.m:2256:51: warning: 'NSApplicationDefined' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        NSEvent* event = [NSEvent otherEventWithType: NSApplicationDefined
+                                                      ^~~~~~~~~~~~~~~~~~~~
+                                                      NSEventTypeApplicationDefined
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:79:26: note: 'NSApplicationDefined' has been explicitly marked deprecated here
+    static const NSEventType NSApplicationDefined   NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeApplicationDefined", 10.0, 10.12) = NSEventTypeApplicationDefined;
+                             ^
+    src/_macosx.m:2325:15: warning: 'NSLeftMouseDown' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        {    case NSLeftMouseDown:
+                  ^~~~~~~~~~~~~~~
+                  NSEventTypeLeftMouseDown
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:65:26: note: 'NSLeftMouseDown' has been explicitly marked deprecated here
+    static const NSEventType NSLeftMouseDown        NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeLeftMouseDown", 10.0, 10.12) = NSEventTypeLeftMouseDown;
+                             ^
+    src/_macosx.m:2327:29: warning: 'NSControlKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                 if (modifier & NSControlKeyMask)
+                                ^~~~~~~~~~~~~~~~
+                                NSEventModifierFlagControl
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:183:35: note: 'NSControlKeyMask' has been explicitly marked deprecated here
+    static const NSEventModifierFlags NSControlKeyMask            NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagControl", 10.0, 10.12) = NSEventModifierFlagControl;
+                                      ^
+    src/_macosx.m:2330:34: warning: 'NSAlternateKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+                 else if (modifier & NSAlternateKeyMask)
+                                     ^~~~~~~~~~~~~~~~~~
+                                     NSEventModifierFlagOption
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:184:35: note: 'NSAlternateKeyMask' has been explicitly marked deprecated here
+    static const NSEventModifierFlags NSAlternateKeyMask          NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagOption", 10.0, 10.12) = NSEventModifierFlagOption;
+                                      ^
+    src/_macosx.m:2341:15: warning: 'NSOtherMouseDown' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+             case NSOtherMouseDown: num = 2; break;
+                  ^~~~~~~~~~~~~~~~
+                  NSEventTypeOtherMouseDown
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:85:26: note: 'NSOtherMouseDown' has been explicitly marked deprecated here
+    static const NSEventType NSOtherMouseDown       NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeOtherMouseDown", 10.0, 10.12) = NSEventTypeOtherMouseDown;
+                             ^
+    src/_macosx.m:2342:15: warning: 'NSRightMouseDown' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+             case NSRightMouseDown: num = 3; break;
+                  ^~~~~~~~~~~~~~~~
+                  NSEventTypeRightMouseDown
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:67:26: note: 'NSRightMouseDown' has been explicitly marked deprecated here
+    static const NSEventType NSRightMouseDown       NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeRightMouseDown", 10.0, 10.12) = NSEventTypeRightMouseDown;
+                             ^
+    src/_macosx.m:2369:15: warning: 'NSLeftMouseUp' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        {    case NSLeftMouseUp:
+                  ^~~~~~~~~~~~~
+                  NSEventTypeLeftMouseUp
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:66:26: note: 'NSLeftMouseUp' has been explicitly marked deprecated here
+    static const NSEventType NSLeftMouseUp          NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeLeftMouseUp", 10.0, 10.12) = NSEventTypeLeftMouseUp;
+                             ^
+    src/_macosx.m:2374:15: warning: 'NSOtherMouseUp' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+             case NSOtherMouseUp: num = 2; break;
+                  ^~~~~~~~~~~~~~
+                  NSEventTypeOtherMouseUp
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:86:26: note: 'NSOtherMouseUp' has been explicitly marked deprecated here
+    static const NSEventType NSOtherMouseUp         NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeOtherMouseUp", 10.0, 10.12) = NSEventTypeOtherMouseUp;
+                             ^
+    src/_macosx.m:2375:15: warning: 'NSRightMouseUp' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+             case NSRightMouseUp: num = 3; break;
+                  ^~~~~~~~~~~~~~
+                  NSEventTypeRightMouseUp
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:68:26: note: 'NSRightMouseUp' has been explicitly marked deprecated here
+    static const NSEventType NSRightMouseUp         NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventTypeRightMouseUp", 10.0, 10.12) = NSEventTypeRightMouseUp;
+                             ^
+    src/_macosx.m:2604:33: warning: 'NSControlKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        if ([event modifierFlags] & NSControlKeyMask)
+                                    ^~~~~~~~~~~~~~~~
+                                    NSEventModifierFlagControl
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:183:35: note: 'NSControlKeyMask' has been explicitly marked deprecated here
+    static const NSEventModifierFlags NSControlKeyMask            NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagControl", 10.0, 10.12) = NSEventModifierFlagControl;
+                                      ^
+    src/_macosx.m:2606:33: warning: 'NSAlternateKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        if ([event modifierFlags] & NSAlternateKeyMask)
+                                    ^~~~~~~~~~~~~~~~~~
+                                    NSEventModifierFlagOption
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:184:35: note: 'NSAlternateKeyMask' has been explicitly marked deprecated here
+    static const NSEventModifierFlags NSAlternateKeyMask          NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagOption", 10.0, 10.12) = NSEventModifierFlagOption;
+                                      ^
+    src/_macosx.m:2608:33: warning: 'NSCommandKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        if ([event modifierFlags] & NSCommandKeyMask)
+                                    ^~~~~~~~~~~~~~~~
+                                    NSEventModifierFlagCommand
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:185:35: note: 'NSCommandKeyMask' has been explicitly marked deprecated here
+    static const NSEventModifierFlags NSCommandKeyMask            NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagCommand", 10.0, 10.12) = NSEventModifierFlagCommand;
+                                      ^
+    src/_macosx.m:2614:37: warning: 'NSShiftKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+            if ([event modifierFlags] & NSShiftKeyMask)
+                                        ^~~~~~~~~~~~~~
+                                        NSEventModifierFlagShift
+    /System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:182:35: note: 'NSShiftKeyMask' has been explicitly marked deprecated here
+    static const NSEventModifierFlags NSShiftKeyMask              NS_DEPRECATED_WITH_REPLACEMENT_MAC("NSEventModifierFlagShift", 10.0, 10.12) = NSEventModifierFlagShift;
+                                      ^
+    src/_macosx.m:3160:5: error: use of undeclared identifier 'PyOS_InputHook'
+        PyOS_InputHook = wait_for_stdin;
+        ^
+    25 warnings and 1 error generated.
+    error: command 'cc' failed with exit status 1
+
+    ----------------------------------------
+
+    Failed building wheel for matplotlib
+Command "/usr/local/bin/pypy3 -u -c "import setuptools, tokenize;__file__='/private/var/folders/f_/ymk21ql93w1_hdtyfvv89rmc0000gn/T/pip-install-t7w5j8ia/matplotlib/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/f_/ymk21ql93w1_hdtyfvv89rmc0000gn/T/pip-record-vv2x6vsv/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /private/var/folders/f_/ymk21ql93w1_hdtyfvv89rmc0000gn/T/pip-install-t7w5j8ia/matplotlib/
